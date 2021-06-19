@@ -1,0 +1,26 @@
+(function (w) {
+    var adsConfig = {
+        clientPositionMeta: undefined,
+        clientViewportAdFetchYOffset: undefined,
+        clusterPositionMeta: undefined,
+        pencilAdSections: {},
+        positions: { "FSRVY": { "meta": { "clean": "sda-FSRVY", "dest": "sda-FSRVY-iframe", "h": 1, "id": "FSRVY", "w": 1 } }, "HPSPON": { "filtered": 1, "sfoptin": 0 }, "LDRB": { "meta": { "clean": "sda-LDRB", "dest": "sda-LDRB-iframe", "fdb": 1, "h": 90, "id": "LDRB", "metaSize": true, "pos": "LDRB", "supports": { "exp-ovr": 1, "exp-push": 1, "lyr": 0 }, "w": 728 }, "sfoptin": 1 }, "LDRP": { "meta": { "clean": "sda-LDRP", "dest": "sda-LDRP-iframe", "h": 50, "id": "LDRP", "metaSize": true, "pos": "LDRP", "supports": { "exp-ovr": 1, "exp-push": 1, "lyr": 1, "resize-to": 1 }, "w": 320 }, "sfoptin": 0 }, "LREC": { "meta": { "clean": "sda-LREC", "dest": "sda-LREC-iframe", "fdb": 1, "h": 250, "id": "LREC", "metaSize": true, "pos": "LREC", "supports": { "exp-ovr": 0, "exp-push": 1, "lyr": 0 }, "w": 300 }, "sfoptin": 1 }, "LREC3": { "meta": { "clean": "sda-LREC3", "dest": "sda-LREC3-iframe", "fdb": 1, "h": 250, "id": "LREC3", "metaSize": true, "pos": "LREC3", "supports": { "exp-ovr": 0, "exp-push": 1, "lyr": 0 }, "w": 300 }, "sfoptin": 1 }, "LREC4": { "meta": { "clean": "sda-LREC4", "dest": "sda-LREC4-iframe", "fdb": 1, "h": 250, "id": "LREC4", "metaSize": true, "pos": "LREC4", "supports": { "exp-ovr": 0, "exp-push": 1, "lyr": 0 }, "w": 300 }, "sfoptin": 1 }, "MAST": { "meta": { "clean": "sda-MAST", "closeBtn": { "adc": 0, "mode": 2, "useShow": 1 }, "dest": "sda-MAST-iframe", "fdb": 1, "h": 250, "id": "MAST", "metaSize": true, "pos": "MAST", "supports": { "exp-ovr": 1, "exp-push": 1, "resize-to": 1 }, "w": 970 }, "sfoptin": 1 }, "MAST-DISPLAY-PH": { "meta": { "clean": "sda-MAST-DISPLAY", "closeBtn": { "adc": 0, "mode": 2, "useShow": 1 }, "dest": "sda-MAST-DISPLAY", "fdb": 1, "h": 250, "id": "MAST", "metaSize": true, "pos": "MAST", "supports": { "exp-ovr": 1, "exp-push": 1, "resize-to": 1 }, "w": 970 }, "sfoptin": 1 }, "MAST-NATIVE-PH": { "meta": { "clean": "sda-MAST-NATIVE", "closeBtn": { "adc": 0, "mode": 2, "useShow": 1 }, "dest": "sda-MAST-NATIVE", "fdb": 1, "h": 250, "id": "MAST", "metaSize": true, "pos": "MAST", "supports": { "exp-ovr": 1, "exp-push": 1, "resize-to": 1 }, "w": 970, "doubleBuffering": false, "flex": { "w": { "max": 1260, "min": 960 } } }, "sfoptin": 1 }, "WFPAD": { "meta": { "clean": "sda-WFPAD", "dest": "sda-WFPAD-iframe", "h": 50, "id": "WFPAD", "metaSize": true, "pos": "WFPAD", "supports": { "exp-ovr": 1, "exp-push": 1, "lyr": 1, "resize-to": 1 }, "w": 320 }, "sfoptin": 0 }, "XFPAD": { "filtered": 1, "sfoptin": 0 } },
+        rotation: { "adboostgrouprotation": { "LREC3": { "extrapositions": "MON2", "inview": "LREC4" }, "LREC4": { "extrapositions": "MON2", "inview": "LREC3" }, "MON2": { "extrapositions": "LREC3,LREC4" } }, "autoeventrt": 10000, "autorotate": true, "currentpos": "LREC3", "defaultrt": 10000, "grouprotation": { "LREC3": "MON2", "LREC4": "MON2", "MON2": "LREC3,LREC4" }, "ldrbrt": 10000, "lrec2selectiveenabled": true, "lrec4enabled": true, "lrec4pos": "LREC4", "lrecrt": 10000, "mastrt": 30000, "mon2enabled": true, "mon2pos": "MON2", "offset": 100, "tabswitchrotate": 10000 },
+        strings: { "advertisement": "Διαφήμιση" },
+        videoPublisherBlob: "",
+        viewerEnableLRECForShowBodyAdsFalse: undefined,
+        viewerGeminiSMAdConfig: {},
+        viewerGeminiSMAdEnabled: false,
+        viewerPositionMeta: { "positions": [{ "clean": "viewer-FSRVY", "dest": "viewer-FSRVY-iframe", "h": 1, "id": "FSRVY-1", "w": 1 }, { "clean": "viewer-LDRB", "dest": "viewer-LDRB-iframe", "fdb": 1, "h": 90, "id": "LDRB-1", "supports": { "exp-ovr": 1 }, "w": 728 }, { "clean": "viewer-LDRB2", "dest": "viewer-LDRB2-iframe", "fdb": 1, "h": 90, "id": "LDRB2-1", "supports": { "exp-ovr": 1 }, "w": 728 }, { "clean": "viewer-LREC", "dest": "viewer-LREC-iframe", "fdb": 1, "h": 250, "id": "LREC-1", "supports": { "exp-ovr": 0 }, "w": 300 }, { "clean": "viewer-LREC2", "dest": "viewer-LREC2-iframe", "fdb": 1, "h": 250, "id": "LREC2-1", "supports": { "exp-ovr": 0 }, "w": 300 }, { "clean": "viewer-LREC3", "dest": "viewer-LREC3-iframe", "fdb": 1, "h": 250, "id": "LREC3-1", "supports": { "exp-ovr": 0 }, "w": 300 }, { "clean": "viewer-MAST", "closeBtn": { "adc": 0, "mode": 2, "useShow": 1 }, "dest": "viewer-MAST-iframe", "fdb": 1, "h": 250, "id": "MAST-1", "supports": { "exp-ovr": 1 }, "w": 970 }, { "clean": "viewer-MON", "dest": "viewer-MON-iframe", "fdb": 1, "h": 600, "id": "MON-1", "supports": { "exp-ovr": 1 }, "w": 300 }, { "clean": "viewer-MON2", "dest": "viewer-MON2-iframe", "fdb": 1, "h": 600, "id": "MON2-1", "supports": { "exp-ovr": 1 }, "w": 300 }], "siteAttributes": "LREC='300x250;1x1' LREC2='300x250;1x1' LREC3='300x250;1x1' UBALREC='300x250;1x1' UBALREC2='300x250;1x1' UBALREC3='300x250;1x1' MON='300x600;1x1' ctout=380", "slideshowPositions": ["LREC-1"], "groupRotation": { "MON2-1": "LREC3-1" } },
+        viewerResetAutoEventOnClose: undefined,
+        viewerSMAdEnabled: false,
+        viewerViewportAdFetch: {},
+        viewerWfpadAdEnabled: undefined,
+        viewerWfpadInVideoEnabled: undefined,
+    };
+
+    // expose adsConfig for homepage-viewer client
+    if (!w.adsConfig) {
+        w.adsConfig = adsConfig;
+    }
+}(window));
